@@ -1,19 +1,22 @@
 <template>
   <div>
     <PrimeiroComponent />
+    <LifeCycle />
     <p>Morada: {{ morada }}</p>
   </div>
 </template>
 
 <script>
   import PrimeiroComponent from './components/PrimeiroComponent.vue';
+  import LifeCycle from './components/LifeCycle.vue';
 
 
   export default {
     name: 'App',
     components: {
-      PrimeiroComponent
-    },
+    PrimeiroComponent,
+    LifeCycle
+},
     data () {
       return {
         morada: 'Gamek'

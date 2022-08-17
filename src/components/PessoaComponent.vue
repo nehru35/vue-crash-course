@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Está é a descrição da pessoa: {{ nome }}</h1>
-        <InfoComponent />
+        <infoComponent />
 
         <p v-if="mostra">Trabalhando...</p>
         <p v-else>Não trabalhando...</p>

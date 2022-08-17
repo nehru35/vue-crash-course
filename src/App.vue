@@ -14,7 +14,7 @@
   import LifeCycle from './components/LifeCycle.vue';
   import PessoaComponent from './components/PessoaComponent.vue';
   import formComponent from './components/formComponent.vue';
-import FormComponent from './components/formComponent.vue';
+
 
 
   export default {
@@ -23,8 +23,7 @@ import FormComponent from './components/formComponent.vue';
     PrimeiroComponent,
     LifeCycle,
     PessoaComponent,
-    formComponent,
-    FormComponent
+    formComponent
 },
     data () {
       return {
